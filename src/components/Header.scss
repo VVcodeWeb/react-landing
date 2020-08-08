@@ -1,0 +1,78 @@
+.header{
+    font-family: Hind,sans-serif;
+    position: fixed;
+    border-bottom: 1px solid black;
+    background-color: #ffffff;
+    width: 100%;
+    transition: all 1s ease;
+    min-height: 30px;
+    z-index: 2;
+    &_container{
+        padding: 1rem;
+        .navbar{  
+            .drop_menu_container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 10vh;
+                .drop_menu{
+                    width: 25px;
+                    height: 25px;
+                    border: none;
+                    padding: 0;
+                    background-color: #ffffff;
+                .toggle_icon{
+                    position: relative;
+                    display: inline-block;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        height: 1px;
+                        left: 0;
+                        top: -5px;
+                    }
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: 10px;
+                    }
+                }
+                .toggle_icon, .toggle_icon::before, .toggle_icon::after{
+                    width: 21px;
+                    height: 1px;
+                    background-color: #17bed2;
+                }
+            }   
+            }
+            .links{
+                transition: all 0.5s linear;
+                padding: 0;
+                margin: 0;
+                .link{
+                    display: none;
+                    a{
+                        text-decoration: none;
+                        font-size: 1.3em;
+                        color: #515769;
+                        line-height: 1.4em;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        padding: 10px 10px 10px 10px;
+                        display: block;
+                    }
+                }
+            }
+            
+        }
+
+        
+    }
+}
+
+.open{
+    height: 45vh;
+}
+.open-link{
+    display: block !important;
+}
