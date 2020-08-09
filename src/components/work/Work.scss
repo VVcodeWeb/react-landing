@@ -1,0 +1,33 @@
+.work{
+    background-color: #ffffff;
+    margin-top: 50px;
+    .container{
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+        h2{
+            font-size: 30px;
+            font-weight: 700;
+            color: #515769;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            color: #a6a7aa;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .image_container{
+        margin-bottom: 25px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}

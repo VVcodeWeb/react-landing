@@ -1,0 +1,44 @@
+.services{
+    background: #fafafa;
+    .title_services{
+        padding: 5rem 0;
+        h2{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+        width: 90%;
+        margin: auto;
+    }
+    .cards_wrapper{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 6rem;
+        .card_wrapper{
+            background-color: white;
+            margin: 5px;
+            padding: 5% 4%;
+            h2{
+                font-size: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+            .card{
+                margin: 20px;
+            }
+        }
+    }
+    h2{
+        font-weight: 700;
+        color: #515769;
+        line-height: 1.4;
+        margin: 0 0 15px;
+    }
+    p{
+        font-weight: 400;
+        color: #a6a7aa;
+        margin-bottom: 15px;
+    }
+}
