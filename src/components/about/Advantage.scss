@@ -1,18 +1,47 @@
-.advantage{ 
+.advantage { 
     background: #ffffff;
     box-shadow: 0 4px 2px -2px gray;
-    margin-bottom: 2rem;
-    .advantage_wrapper{
+    margin-bottom: 1.75rem;
+}
+
+
+.advantage .open_advantage{
+    background: #17bed2;
+    p{
+        display: inline-block;
+    }
+    h2, p{
+        color: #ffffff;
+    }
+    height: 250px;
+    transition: all 0.5s ease-out;
+    .text_container{
         display: flex;
+        height: 100%;
         flex-direction: column;
         justify-content: space-between;
-        padding: 15px 25px;
-        h2{
-            font-size: 1.5rem;    
-        }   
-        p{
-            display: none;
-        }
     }
+}
+
+.advantage .close_advantage{
+    p{
+        display: none;
+    }
+    height: 150px;
+    transition: all 0.5s ease-out;
+    
+
+}
+
+.advantage_wrapper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h2{
+        font-size: 1.5rem;
+        margin-top: 10px;
+            
+    }   
     
 }

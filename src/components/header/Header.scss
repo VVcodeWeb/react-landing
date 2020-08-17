@@ -1,7 +1,5 @@
 .header{
-    font-family: Hind,sans-serif;
     position: fixed;
-    border-bottom: 1px solid black;
     background-color: #ffffff;
     width: 100%;
     transition: all 1s ease;
@@ -14,6 +12,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                width: 100%;
                 height: 10vh;
                 .drop_menu{
                     width: 25px;
@@ -21,6 +20,9 @@
                     border: none;
                     padding: 0;
                     background-color: #ffffff;
+                    &:focus{
+                        outline: none;
+                    }
                 .toggle_icon{
                     position: relative;
                     display: inline-block;
@@ -46,9 +48,9 @@
             }   
             }
             .links{
-                transition: all 0.5s linear;
                 padding: 0;
                 margin: 0;
+                height: 30px;
                 .link{
                     display: none;
                     a{
@@ -70,9 +72,18 @@
     }
 }
 
-.open{
-    height: 45vh;
+
+.header_container_closed{
+    height: 15vh;
+    transition: all 0.5s ease-out;
 }
-.open-link{
-    display: block !important;
+
+.header_container_open{
+    height: 48vh;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+    .open-link{
+        display: block!important;
+    }
 }
+

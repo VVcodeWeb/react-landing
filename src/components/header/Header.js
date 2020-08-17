@@ -11,7 +11,7 @@ function Header() {
     
     return(
         <div className="header">
-            <div className={openMenu?"header_container open":"header_container"}>
+            <div className={`header_container ${openMenu? "header_container_open": "header_container_closed"}`}>
                 <nav className="navbar">
                     <div className="drop_menu_container">
                         <img src={logo_dark} alt="logo_dark"/>
@@ -23,13 +23,13 @@ function Header() {
                     <div className="navbar_collapse">
                         <div className="navbar_collapse_container">
                             <ul className="links">
-                                <li className={openMenu?"link open-link": "link"}><a href="/">Home</a></li>
-                                <li className={openMenu?"link open-link": "link"}><a href="/">About</a></li>
-                                <li className={openMenu?"link open-link": "link"}><a href="/">Product</a></li>
-                                <li className={openMenu?"link open-link": "link"}><a href="/">Pricing</a></li>
-                                <li className={openMenu?"link open-link": "link"}><a href="/">Work</a></li>
-                                <li className={openMenu?"link open-link": "link"}><a href="/">Service</a></li>
-                                <li className={openMenu?"link open-link": "link"}><a href="/">Contact</a></li>
+                                <li className="link open-link"><a href="/">Home</a></li>
+                                <li className="link open-link"><a href="/">About</a></li>
+                                <li className="link open-link"><a href="/">Product</a></li>
+                                <li className="link open-link"><a href="/">Pricing</a></li>
+                                <li className="link open-link"><a href="/">Work</a></li>
+                                <li className="link open-link"><a href="/">Service</a></li>
+                                <li className="link open-link"><a href="/">Contact</a></li>
                             </ul>
                         </div>
                     </div>

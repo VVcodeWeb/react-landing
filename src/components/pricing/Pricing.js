@@ -1,7 +1,7 @@
 import React from "react"
 import PricingCard from "../global/PricingCard"
 import Card from "../global/Card"
-import icon from "../../assets/gmap-pin.png"
+
 import TitleAndText from "../global/TitleAndText"
 import "./Pricing.scss"
 
@@ -13,17 +13,17 @@ const Pricing = () => {
         <section className="pricing">
             <div className="pricing_wrapper">
                 <PricingCard features={features_starter}>
-                <Card icon={icon} >
+                <Card icon="icon-chemistry" >
                         <TitleAndText title="Starter Kit 49" span=" - $" text="Ras pretium cursus velit, a dictum metus condimentum sed." />
                     </Card>
                 </PricingCard>
                 <PricingCard features={features_proffesional}>
-                    <Card icon={icon} >
+                    <Card icon="icon-magic-wand" >
                     <TitleAndText title="Professional Kit 149" span=" - $" text="Sas pretium cursus velit, a dictum metus condimentum sed." />
                     </Card>
                 </PricingCard>
                 <PricingCard features={features_advanced}>
-                    <Card icon={icon}>
+                    <Card icon="icon-shield">
                         <TitleAndText title="Advanced Kit 249" span=" - $" text="Kas pretium cursus velit, a dictum metus condimentum sed." />
                     </Card>
                 </PricingCard>

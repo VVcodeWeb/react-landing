@@ -9,6 +9,7 @@ import Work from "./components/work/Work"
 import Services from "./components/servic/Services"
 import Contacts from "./components/contact/Contacts"
 import Footer from "./components/footer/Footer"
+import "bootstrap"
 function App() {
   return (
     <div className="App">

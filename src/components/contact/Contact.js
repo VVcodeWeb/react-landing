@@ -6,10 +6,16 @@ const Contact = (props) => {
         <div className="contact">
             {props.children}
             <div className="phone">
-                <p>{props.phone}</p>
+                <i className="icon light_blue_color icon-call-out">
+                    <p>{props.phone}</p>
+                </i>
+                
             </div>
             <div className="email">
-                <p>{props.email}</p>
+                <i className="icon light_blue_color icon-envelope">
+                    <p>{props.email}</p>
+                </i>
+                
             </div>
         </div>
     )

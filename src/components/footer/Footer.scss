@@ -9,9 +9,39 @@ ul{
 .links_wrapper{
     width: 90%;
     margin: auto;
+    margin-bottom: 70px;
+        .footer_links{
+            margin-bottom: 30px;
+            line-height: 2rem;
+            .footer_link{
+                font-size: 17px;
+                font-weight: 500;
+                color: #515769;
+            }
+        }    
 }
-.footer_bottom{
+
+
+.footer_wrapper{
     width: 100%;
     min-height: 100px;
-    border-top: 1px solid black;
+    border-top: 1px ridge #81848f;
+}
+
+.footer_bottom{
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_logo{
+        align-self: flex-start;
+    }
+
+    &_text{
+        text-align: right;
+        span{
+            color: #81848f;
+            font-weight: 700;
+        }
+    }
 }

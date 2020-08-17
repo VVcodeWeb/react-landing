@@ -1,4 +1,5 @@
 .services{
+    
     background: #fafafa;
     .title_services{
         padding: 5rem 0;
@@ -25,9 +26,7 @@
             p{
                 font-size: 15px;
             }
-            .card{
-                margin: 20px;
-            }
+            
         }
     }
     h2{
@@ -40,5 +39,22 @@
         font-weight: 400;
         color: #a6a7aa;
         margin-bottom: 15px;
+    }
+    .special_card{
+        background-color: #17bed2!important;
+
+
+        .text_container{
+            h2{
+                color: #ffffff;
+            }
+            p{
+                color:#ffffff;
+            }
+        }
+
+        .white-icon{
+            color: #ffffff!important;
+        }
     }
 }

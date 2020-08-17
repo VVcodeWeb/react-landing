@@ -2,4 +2,26 @@
     margin-bottom: 40px;
     padding: 3%;
     box-shadow: 1px 2px 3px black;
+    p{
+        display: inline-block;
+        margin: 10px 0;
+    }
+    span{
+        padding-left: 20px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .icon{
+        padding-right: 20px;
+        font-size: 17px;
+        p{
+            margin-left: 15px;
+            color: #81848f;
+            font-weight: 500;
+        }
+    }
+}
+
+.light_blue_color{
+    color: #17bed2!important;
 }

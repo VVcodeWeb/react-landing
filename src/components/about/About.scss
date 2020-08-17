@@ -1,5 +1,4 @@
 .about_container {
-  font-family: Hind, sans-serif;
   padding-bottom: 3rem;
   .container {
     padding: 5rem 1rem 0;
@@ -37,6 +36,7 @@
   .why_us {
     padding-top: 80px;
     background: #fafafa;
+    padding-bottom: 5rem;
     .why_us_container {
       width: 90%;
       margin: auto;
@@ -45,13 +45,15 @@
         padding: 30px 0;
       }
       .expore_button_container {
+        margin: 20px 0;
         .explore_button {
           background-color: #515769;
           color: #ffffff;
-          padding: 15px 30px;
+          padding: 15px 40px;
+          font-size: 0.8rem;
           text-decoration: none;
           text-transform: uppercase;
-          font-weight: bold;
+          font-weight: 500;
         }
       }
     }

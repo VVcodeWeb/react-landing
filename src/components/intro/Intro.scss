@@ -1,0 +1,46 @@
+.carousel-inner, #intro_carousel{
+    position: relative;
+}
+.carousel-indicators {
+    position: absolute;
+    left: 2.5%;
+    bottom: 2.5%;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    li{
+        width: 10px;
+        height: 10px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        border-radius: 50%;
+    }
+    li.active{
+        width: 12px;
+        height: 12px;
+        background: #ffffff;
+        transition: all 0.3s ease-out;
+    }
+}
+.text_over_img{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    h1, p, a{
+        color: #ffffff;
+        filter: drop-shadow(1px 1px rgba(0,0,0,.5));
+        
+    }
+    h1{
+        font-size: 60px;
+        
+    }
+    .intro_button{
+        font-size: 13px;
+        letter-spacing: 0.1rem;
+        border: 2px solid #ffffff;
+        box-shadow: 5px 3px 3px rgba(23, 190, 210, 0.5);
+
+    }
+
+}

@@ -1,6 +1,9 @@
 .pricing{
     background: #fafafa;
-    padding-top: 5rem;
+    
+    .pricing_wrapper{
+        padding: 6rem 0;
+    }
     h2{
         font-size: 22px;
         font-weight: 700;
@@ -17,15 +20,5 @@
         font-weight: 400;
         color: #bfc1c7;
     }
-    .pricing_card_container{
-        width: 90%;
-        margin: auto;
-        padding-bottom: 6rem;
-        .pricing_card{
-            background-color: white;
-            margin: 2px;
-            padding: 6rem 2rem;
-            
-        }
-    }
+    
 }

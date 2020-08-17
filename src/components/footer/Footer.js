@@ -22,14 +22,19 @@ const Footer = () => {
                 <ul className="footer_links">
                     <li className="footer_link">Subscribe</li>
                     <li className="footer_link">Privacy Policy</li>
-                    <li className="footer_link"> Terms&Condtions</li>
+                    <li className="footer_link"> Terms & Condtions</li>
                 </ul>
             </div>
             </div>
-            
-            <div className="footer_bottom">
-                <img src={logo} alt="logo"/>
-            </div>
+            <div className="footer_wrapper">
+                <div className="footer_bottom">
+                    <img className="footer_bottom_logo" src={logo} alt="logo"/>
+                    <p className="footer_bottom_text">
+                        <span>Altonepage</span> Theme <br/> Powered by: <br/>
+                        <span>KeenThemes.com</span>
+                    </p>
+                </div>
+            </div> 
         </section>
     )
 }
