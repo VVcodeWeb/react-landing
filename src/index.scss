@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 100%;
   overflow-x: hidden;
 }
 html{
@@ -16,12 +16,24 @@ html{
   margin: 0;
 }
 
+.w-96{
+  width: 96%!important;
+}
+
 //Bootstrap overwrite
 
 .container{
-  padding: 0;
+  padding: 0!important;
+  margin: 0;
 }
 .card{
   border: none;
 }
+/* .row{
+  margin: 0;
+}
 
+div[class*="col"]{
+  padding-left: 0;
+  padding-right: 0;
+} */

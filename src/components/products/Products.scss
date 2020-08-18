@@ -1,9 +1,9 @@
 .products{
     background-color: #ffffff;
     .produt_wrapper{
-        width: 90%;
         margin: auto;
         padding-bottom: 6rem;
+        
         .latest_product{
             h2{
                 font-size: 2rem;
@@ -47,8 +47,8 @@
                 &::after{
                     content: "";
                     position: absolute;
-                    top: 8px;
-                    left: 25%;
+                    top: 10px;
+                    left: 80px;
                     width: 15px;
                     height: 2px;
                     background-color: #17bed2;

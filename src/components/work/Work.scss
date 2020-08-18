@@ -1,8 +1,7 @@
 .work{
     background-color: #ffffff;
     margin-top: 50px;
-    .container{
-        width: 90%;
+    .containerwork{
         margin: auto;
         overflow: hidden;
         h2{
@@ -25,9 +24,74 @@
     justify-content: space-between;
     .image_container{
         margin-bottom: 25px;
+        position: relative;
         img{
             width: 100%;
             height: auto;
         }
+        &:hover{
+            cursor: pointer;
+            &::before{
+                background-color: rgba(0,0,0,0.6);
+            }
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: all 0.3s ease-out;
+        }
     }
+}
+
+.information_about_work{
+    position: fixed;
+    top: 30%;
+    left: 5%;
+    height: 50%;
+    width: 90%;
+    background: #ffffff;
+    line-height: 2rem;
+    transition: all 0.4s ease-out;
+    p, span{
+        color:#a6a7aa;
+        font-size: 1.2rem;
+    }
+    h2{
+        color: #515769;
+    }
+    .titelAndClose{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .hide_button{
+            background: #ffffff;
+            height: 30px;
+            color: #c5c6cb;
+            border: none;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}
+
+.glider_wrapper{
+    
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.display_info{
+    opacity: 1;
+    visibility: visible;
+}
+
+.hide_info{
+    opacity: 0;
+    visibility: hidden;
 }

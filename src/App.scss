@@ -1,5 +1,175 @@
-.App {
 
-
+@media (min-width: 750px){
+  .coding_container, .design_container, .amazing_support{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .latest_product{
+    div[class*="col"]{
+      padding: 0!important;
+    } 
+  }
+  .about_container{
+    .img_container{
+      width: 345px;
+      height: 345px;
+      margin: 0;
+    }
+    .art_coding{
+      width: 750px;
+      margin: auto;
+    }
+    .why_us_wrapper{
+      width: 750px;
+    }
+  }
+  .products {
+    .product_wrapper, .latest_product_wrapper{
+      width: 750px;
+      margin: auto;
+    }
+    .product_wrapper {
+      img{
+        width: 220px!important;
+        height: 146px!important;
+      }
+    }
+  }
+  .product{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .pricing{
+    .pricing_wrapper{
+      margin: auto;
+      width: 750px;
+    }
+    
+    div[class*="col"]{
+      padding-left: 1px;
+      padding-right: 1px;
+    } 
+  }
+  .work{
+    width: 750px;
+    margin: auto;
+    .containerwork{
+      .images{
+        display: flex;
+        flex-direction: inherit;
+        .image_container{
+          width: 500px;
+          height: 400px;
+          img{
+            max-width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .services{
+    .wrapper_services{
+      width: 750px;
+      margin: auto;
+    }
+    .cards_wrapper{
+      .row{
+        margin: 0!important;
+        div[class*="col"]{
+          padding: 0!important;
+        } 
+      }
+    }
+  }
+  .contacts_container{
+    width: 750px;
+    margin: auto;
+    padding: 0;
+  }
+  .wrapper_carousel{
+    width: 750px;
+    margin: auto;
+  }
 }
 
+
+@media(min-width: 1200px){
+  .wrapper_carousel{
+    width: 1170px;
+    margin: auto;
+  }
+    .about_container{
+      .art_coding, .why_us_wrapper{
+        width: 1170px;
+      }
+      .img_container{
+        width: 360px;
+        height: 360px;
+      }
+      
+    }
+    .coding_container, .design_container, .amazing_support{
+      padding-left: 25px!important;
+      padding-right: 25px!important;
+    }
+    .products {
+      .product_wrapper, .latest_product_wrapper{
+        width: 1170px;
+      }
+    }
+    .pricing{
+      .pricing_wrapper{
+        margin: auto;
+        width: 1170px;
+      }
+    }
+    .services{
+      .wrapper_services{
+        width: 1170px;
+      }
+    }
+    .contact .icon p{
+      margin-left: 10px;
+    }
+
+    .contacts_container{
+      width: 1170px;
+      padding: 0;
+    }
+
+    .header{
+      .drop_menu{
+        display: none;
+      }
+      .header_container{
+        width: 1170px;
+        margin: auto;
+      }
+
+      .navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        .drop_menu_container{
+          display: inline-block;
+          flex: 1;
+        }
+        .navbar_collapse{
+          display: inline-block;
+          flex: 2;
+        }
+      }
+      .links{
+        display: flex;
+        justify-content: space-between;
+        .link{
+          font-size: 0.9rem;
+          display: inline-block!important;
+        }
+      }
+    }
+  }
+
+
+  

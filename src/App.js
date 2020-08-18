@@ -9,19 +9,23 @@ import Work from "./components/work/Work"
 import Services from "./components/servic/Services"
 import Contacts from "./components/contact/Contacts"
 import Footer from "./components/footer/Footer"
+import PageWrapper from "./PageWrapper"
 import "bootstrap"
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Intro />
-      <About />
-      <Products />
-      <Pricing />
-      <Work />
-      <Services />
-      <Contacts />
-      <Footer />
+      <PageWrapper>
+        <Header />
+        <Intro />
+        <About />
+        <Products />
+        <Pricing />
+        <Work />
+        <Services />
+        <Contacts />
+        <Footer />
+      </PageWrapper>
+      
     </div>
   );
 }

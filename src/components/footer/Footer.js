@@ -5,21 +5,21 @@ import "./Footer.scss"
 const Footer = () => {
     return(
         <section className="footer">
-            <div className="links_wrapper">
-            <div className="links">
-                <ul className="footer_links">
+            <div className="links_wrapper w-96">
+            <div className="links row">
+                <ul className="footer_links col-md-4">
                     <li className="footer_link">Home</li>
                     <li className="footer_link">About</li>
                     <li className="footer_link">Work</li>
                     <li className="footer_link">Contact</li>
                 </ul>
-                <ul className="footer_links">
+                <ul className="footer_links col-md-4">
                     <li className="footer_link">Facebook</li>
                     <li className="footer_link">Twitter</li>
                     <li className="footer_link">Instagram</li>
                     <li className="footer_link">YouTube</li>
                 </ul>
-                <ul className="footer_links">
+                <ul className="footer_links col-md-4">
                     <li className="footer_link">Subscribe</li>
                     <li className="footer_link">Privacy Policy</li>
                     <li className="footer_link"> Terms & Condtions</li>

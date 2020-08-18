@@ -9,11 +9,9 @@
         p{
             font-size: 15px;
         }
-        width: 90%;
         margin: auto;
     }
     .cards_wrapper{
-        width: 90%;
         margin: auto;
         padding-bottom: 6rem;
         .card_wrapper{
@@ -27,6 +25,21 @@
                 font-size: 15px;
             }
             
+            &:hover{
+                cursor: pointer;
+
+                .icon_wrapper{
+                    transform: translateY(-50px);
+                    transition: all 0.5s ease;
+
+                    opacity: 0;
+                }
+                .text_container{
+                    transform: translateY(-60px);
+                    transition: all 0.5s ease;
+
+                }
+            }
         }
     }
     h2{

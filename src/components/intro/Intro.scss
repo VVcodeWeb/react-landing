@@ -22,7 +22,7 @@
         transition: all 0.3s ease-out;
     }
 }
-.text_over_img{
+.wrapper_text{
     position: absolute;
     top: 30%;
     left: 5%;
@@ -39,8 +39,11 @@
         font-size: 13px;
         letter-spacing: 0.1rem;
         border: 2px solid #ffffff;
-        box-shadow: 5px 3px 3px rgba(23, 190, 210, 0.5);
-
+        &:hover{
+            text-decoration: none;
+            background: #ffffff;
+            color: #515769;
+        }
     }
 
 }

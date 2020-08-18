@@ -1,0 +1,29 @@
+.top_button_container{
+    position: fixed;
+    transition: all 0.3s ease-out;
+    bottom: -30px;
+    right: 3%;
+    .topButton{
+        color: #ffffff;
+        background: #515769;
+        opacity: 0.6;
+        border-radius: 10%;
+        font-size: 0.8rem;
+        text-decoration: none;
+        transition: all 0.5s ease-out;
+        &:hover{
+            opacity: 1;
+        }
+        
+    }
+
+}
+
+.topButtonOff{
+    opacity: 0;
+}
+
+.topButtonOn{
+    opacity: 1;
+    transform: translateY(-50px);
+}

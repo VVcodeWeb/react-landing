@@ -2,6 +2,12 @@
     background: #ffffff;
     box-shadow: 0 4px 2px -2px gray;
     margin-bottom: 1.75rem;
+    &:hover{
+        cursor: pointer;
+        h2{
+            color: #999caa;
+        }
+    }
 }
 
 
