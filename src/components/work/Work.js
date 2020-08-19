@@ -24,24 +24,27 @@ const Work = () => {
         setShowInfo(!showInfo)
     }
     return(
-        
         <section className="work">
-            
             <div className="containerwork w-96">
                 <TitleAndText title="Work" text="Donec ac nibh semper, imperdiet tellus et, tempus ipsum. Nam leo leo, volutpat vitae pretium quis, molestie sed ante. Suspendisse at turpis erat. 
                 Etiam ullamcorper hendrerit lacus, sed pretium tellus viverra a." />
                 <div className="images">
-                    {images.map((image, key) => {
-                        return( 
-                        <div onClick={clickOnImage} className="image_container" key={key}>
-                            <img  src={image} alt={image}/>
-                        </div>
-                        )
-                    })}
+                    <div className="row">
+                        {images.map((image, key) => {
+                            return( 
+                            <div onClick={clickOnImage} className="image_container col-md-6" key={key}>
+                                <img  src={image} alt={image}/>
+                            </div>
+                            )
+                        })}
+                    </div>
+
                 </div>
             </div>
             <div className="glider_wrapper py-5 w-75 mx-auto">
-                <GliderComponent>
+                <GliderComponent  hasArrows={true} settings={{
+                    slidesToShow: 3
+                }}>
                     <div><img src={carousel_img_1} alt="1"/></div>
                     <div><img src={carousel_img_2} alt="2"/></div>
                     <div><img src={carousel_img_3} alt="3"/></div>

@@ -37,3 +37,9 @@ div[class*="col"]{
   padding-left: 0;
   padding-right: 0;
 } */
+
+//Glider
+
+.glider-prev:focus, .glider-next:focus{
+  outline: none!important;
+}
