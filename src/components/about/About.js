@@ -55,7 +55,7 @@ function About() {
                 <TitleAndText title="Clean Design" text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, neque!" />
               </div>
             </div>
-            <div className="amazing_support col-md-6  col-xl-4">
+            <div className="amazing_support col-md-6  col-xl-4 mr-0 ml-0">
               <TitleAndText title="Amazing Support" text="Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Voluptates, minima." />
               <div className="img_container">

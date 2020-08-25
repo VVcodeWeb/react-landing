@@ -108,7 +108,10 @@
 
 .transparent_theme{
     background-color: transparent;
+    .header_container_open{
+        background: #f3f3f3;
+    }
     a{
-        color: #ffffff!important;
+        color: #333333!important;
     }
 }
