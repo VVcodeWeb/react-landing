@@ -1,2 +1,0 @@
-Make "Top" button occur, after at least 10vh scrolling down
-Make links actually work with smooth scrolling
