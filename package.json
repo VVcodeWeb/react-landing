@@ -19,7 +19,8 @@
     "react-scroll": "^1.8.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node index.js",
+    "start:react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,5 +42,17 @@
   },
   "devDependencies": {
     "styled-components": "^5.1.1"
+  },
+  "description": "<h2>Very first React landing page.</h2>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlyAltOne/react-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OnlyAltOne/react-landing/issues"
   }
+  
 }
