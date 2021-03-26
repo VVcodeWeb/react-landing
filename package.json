@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.2",
     "google-map-react": "^2.0.8",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0",
     "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
     "react": "^16.14.0",
